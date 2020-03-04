@@ -11,6 +11,7 @@ class Usuario extends Model {
         password_hash: Sequelize.STRING,
         sexo: Sequelize.STRING,
         telefone: Sequelize.INTEGER,
+        active: Sequelize.BOOLEAN,
       },
       {
         sequelize,

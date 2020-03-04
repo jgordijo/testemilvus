@@ -11,6 +11,7 @@ class Clientes extends Model {
         logradouro: Sequelize.STRING,
         numero: Sequelize.INTEGER,
         complemento: Sequelize.STRING,
+        active: Sequelize.BOOLEAN,
       },
       {
         sequelize,
